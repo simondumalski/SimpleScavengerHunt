@@ -1,0 +1,20 @@
+name: SimpleScavengerHunt
+version: '${project.version}'
+main: me.simondumalski.simplescavengerhunt.Main
+api-version: 1.16
+authors: [ Saymoan ]
+description: '${project.description}'
+commands:
+  scavengerhunt:
+    description: Main command for scavenger hunts
+    aliases: [ shunt ]
+permissions:
+  scavengerhunt.join:
+    default: true
+    description: Allows players to join/leave scavenger hunts
+  scavengerhunt.host:
+    default: op
+    description: Allows players to run any command while in a scavenger hunt
+  scavengerhunt.admin:
+    default: op
+    description: Allows player to set the join/leave locations

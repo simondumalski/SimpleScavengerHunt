@@ -1,0 +1,25 @@
+# SimpleScavengerHunt
+# The world in which the join location is set will prevent all commands from being run
+# 'scavengerhunt.host' - Exempt from the scavenger hunt command prevention
+# 'scavengerhunt.admin' - Set the join/leave locations
+# 'scavengerhunt.join' - Allows for joining/leaving scavenger hunts
+
+# Plugin messages
+messages:
+  plugin:
+    prefix: '&8[&6ScavengerHunt&8]&r'
+  errors:
+    insufficient-permissions: '%prefix% &cInsufficient permissions!'
+    unknown-command: '%prefix% &cUnknown command!'
+    command-blocked: '%prefix% &cYou can''t use commands in a scavenger hunt!'
+    teleport-failed: '%prefix% &cTeleport failed!'
+    no-join-location: '%prefix% &cNo scavenger hunt join spawn set!'
+    no-leave-location: '%prefix% &cNo scavenger hunt leave spawn set!'
+    already-in-scavenger-hunt: '%prefix% &cYou are already in a scavenger hunt!'
+    not-in-scavenger-hunt: '%prefix% &cYou are not in a scavenger hunt!'
+    pvp-disabled: '%prefix% &cPvP is disabled here!'
+  commands:
+    join-location-set: '%prefix% &aScavenger hunt join location set!'
+    leave-location-set: '%prefix% &aScavenger hunt leave location set!'
+    join-scavenger-hunt: '%prefix% &aYou have joined the scavenger hunt!'
+    leave-scavenger-hunt: '%prefix% &aYou have left the scavenger hunt!'
